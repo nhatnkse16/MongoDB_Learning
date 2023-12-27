@@ -1,0 +1,1 @@
+SQL (Table, Row)	-	MongoDB (Collection, Document)
