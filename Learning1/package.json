@@ -5,7 +5,12 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "mongo": "node src/config/mongoDB.js",
+    "find": "node src/service/findService.js",
+    "create": "node src/service/createService.js",
+    "update": "node src/service/updateService.js",
+    "delete": "node src/service/deleteService.js"
   },
   "author": "Ngkn",
   "license": "ISC",
